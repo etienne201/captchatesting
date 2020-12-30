@@ -1,0 +1,16 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json", 
+    "chromeWebSecurity": false,  
+    "fixturesFolder": "./cypress/fixtures",  
+    "integrationFolder": "./cypress/integration",  
+    "pluginsFile": "./cypress/plugins/index.js",  
+    "supportFile": "./cypress/support/index.js", 
+    "projectId": "bf9ube",
+    "cypress:open": "../../node_modules/.bin/cypress open",
+    "cypress:run": "../../node_modules/.bin/cypress run",
+    "test:ci": "../../node_modules/.bin/cypress run",
+    "test:ci:record": "../../node_modules/.bin/cypress run --record",
+    "test:ci:windows": "bin-up cypress run",
+    "test:ci:windows:record": "bin-up cypress run --record --group fundamentals__fixtures", 
+    "baseUrl": "http://127.0.0.1:5500/"
+}
